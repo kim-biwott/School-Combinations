@@ -4,7 +4,7 @@ from rich.table import Table
 console = Console()
 
 def display_title():
-    title = "SCHOOL FILTERING APPLICATION"
+    title = "BLIU SCHOOL FILTERING"
     console.print(f"\n[bold blue]{title}[/bold blue]", justify="center")
     console.print("[bold green]Filter Schools by Region, County, Sub-County, Cluster and Gender[/bold green]\n", justify="center")
 
